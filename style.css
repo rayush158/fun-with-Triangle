@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    background-color: burlywood;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+.container-triangle{
+    padding: 1.5rem;
+  max-width: 700px;
+  margin: auto;
+}
+ .angleIn{ 
+    font-size: 1.5rem;
+    display: block;
+    margin: 1rem, auto;
+    text-align: center; 
+} 
+input{
+    height: 1.75rem;
+    border-radius: 0.4rem;
+    background-color:wheat ;
+}
+
+label{
+    padding: .5rem;
+    margin-left: 10rem auto;
+}
+#submit-btn{
+    margin: 1rem auto;
+  display: block;
+  height: 2.5rem;
+  text-align: center;
+  border-radius: 0.8rem;
+  width: 9rem;
+  border: solid whitesmoke 2.5px;
+  font-size: large;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+}
+
+.question-container{
+    text-align: 3rem auto;
+    font-size: 1.30rem;
+    margin-left: 2rem;
+    
+}
+.list-non-bullet {
+    list-style: none;
+  }
+  .list-item-inline {
+    display: inline;
+    padding: 0rem 0.6rem;
+  }
+
+.navigation{
+    background-color: lightcoral;
+  padding: 1rem;
+  border-bottom-left-radius: .7rem;
+  border-bottom-right-radius: .7rem;
+  font-size: 1.35rem;
+}
+.nav-brand{
+    color :rebeccapurple;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navigation .nav-pills {
+    text-align: right;
+  
+  }
+  .navigation .link {
+    color:brown;
+  }
+  .navigation .link-active {
+    font-weight: bold;
+  }
+  #output{
+      text-align: center;
+      font-size: 2rem;
+
+  }
+  
